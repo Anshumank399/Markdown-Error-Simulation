@@ -1,0 +1,24 @@
+---
+title: "Simulate Error"
+author: "Anshuman Dey Kirty"
+date: "2 April 2020"
+output: html_document
+---
+
+<br />
+
+## Title {.tabset}
+
+### January,20
+```{r error=FALSE, message=FALSE, echo=FALSE, warning=FALSE}
+
+print("abc")
+
+```
+### February,20
+```{r error=FALSE, message=FALSE, echo=FALSE, warning=FALSE}
+
+print("abc")
+
+```
+##
